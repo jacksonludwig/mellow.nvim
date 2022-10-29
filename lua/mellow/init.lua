@@ -142,8 +142,7 @@ local set_groups = function()
     { hg = "@variable", fg = c.fg, gui = cfg.variable_style },
     { hg = "@variable.parameter", fg = c.cyan, gui = cfg.variable_style },
     -- Tree sitter language specific overrides
-    { hg = "@constructor.javascript", fg = c.yellow },
-    { hg = "@constructor.typescript", fg = c.yellow },
+    { hg = "@constructor", fg = c.yellow },
     { hg = "@keyword.clojure", fg = c.bright_cyan, gui = cfg.keyword_style },
     { hg = "@keyword.function.clojure", fg = c.bright_cyan, gui = cfg.function_style },
 
